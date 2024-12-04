@@ -1,6 +1,0 @@
-com/lion/demo/Service/BookServiceImpl.class
-com/lion/demo/repository/BookRepository.class
-com/lion/demo/Service/BookService.class
-com/lion/demo/DemoApplication.class
-com/lion/demo/controller/BookController.class
-com/lion/demo/entity/Book.class
