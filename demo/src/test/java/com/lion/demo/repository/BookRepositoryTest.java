@@ -40,7 +40,6 @@ public class BookRepositoryTest {
         Book book1 = new Book(0L, "title1", "author", "company", 20000, "Image URL", "summary");
         Book book2 = new Book(0L, "title2", "author", "company", 20000, "Image URL", "summary");
 
-
         // When
         bookRepository.save(book1);
         bookRepository.save(book2);

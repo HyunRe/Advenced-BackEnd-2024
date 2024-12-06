@@ -23,6 +23,7 @@ public class CalcUtilTest {
         // Given: 테스트 준비 단계
         int x = 3, y = 4;
 
+
         // When: 테스트 실행 단계
         int result = calcUtil.mul(x, y);
 
