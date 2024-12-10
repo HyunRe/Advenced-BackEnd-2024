@@ -22,7 +22,7 @@ public class SecurityConfig {
                 .headers(x -> x.frameOptions(y -> y.disable()))     // H2 Console 사용을 위해
                 .authorizeHttpRequests(requests -> requests
                         .requestMatchers("/book/list", "/book/detail/**", "/mall/list", "/mall/detail/**",
-                                "/user/register", "h2-console", "/demo/**",
+                                "/user/register", "h2-console", "/demo/**", "/misc/**", "/websocket/**", "/echo","/personal",
                                 "img/**", "/js/**", "/css/**", "/error/**").permitAll()     // 누구든 허용
                         .requestMatchers("/book/insert", "/book/yes24", "/order/listAll",
                                 "/order/bookStat", "/user/list", "/user/delete").hasAuthority("ROLE_ADMIN")     // 인가된 관리자 허용
